@@ -32,10 +32,14 @@ html {
 }
 
 .jumbotron {
-	background-image: url('../img/jumbotron.JPG')!important;
+	background-image: url(../img/jumbotron.JPG)!important;
 	height: 624px;
 	width: 100%;
 	background-size: cover;
+        -webkit-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	-moz-background-size: cover;
 	background-attachment: fixed;
 }
 
